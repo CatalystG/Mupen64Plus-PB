@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qnx>
+   <configuration id="com.qnx.qcc.toolChain.1019696273" name="Default">
+      <platformArchitecture>armle-v7</platformArchitecture>
+      <asset path="mupen64plus-ui-console" entry="true" type="Qnx/Elf">mupen64plus-ui-console</asset>
+   </configuration>
+   <initialWindow>      <aspectRatio>landscape</aspectRatio>
+      <autoOrients>false</autoOrients>
+</initialWindow>
+   <id>com.emulator.mupen64plus_pb</id>
+   <versionNumber>1.0.0</versionNumber>
+   <buildId>2</buildId>
+   <author>Catalyst G</author>
+   <authorId>gYAAgHmLj36GgRhxyfpb8MwaR-s</authorId>
+   <icon>
+      <image>mupen4plus icon.png</image>
+   </icon>
+   <name>Mupen64Plus-PB</name>
+   <category>core.games</category>
+   <asset path="C:/Development/Mupen64Plus-PB/data/InputAutoCfg.ini">InputAutoCfg.ini</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/data/mupen64plus.ini">mupen64plus.ini</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/data/RiceVideoLinux.ini">RiceVideoLinux.ini</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/libs/gles2n64.so" type="Qnx/Elf">lib/gles2n64.so</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/libs/libbbutil.so" type="Qnx/Elf">lib/libbbutil.so.1</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/libs/libmupen64plus.so.2" type="Qnx/Elf">lib/libmupen64plus.so.2</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/libs/libmupen64plus-input-sdl.so" type="Qnx/Elf">lib/libmupen64plus-input-sdl.so</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/libs/libmupen64plus-rsp-hle.so" type="Qnx/Elf">lib/libmupen64plus-rsp-hle.so</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/libs/libmupen64plus-video-rice.so" type="Qnx/Elf">lib/libmupen64plus-video-rice.so</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/libs/libSDL_image.so" type="Qnx/Elf">lib/libSDL_image.so</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/libs/libSDL_ttf.so" type="Qnx/Elf">lib/libSDL_ttf.so</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/libs/libSDL12.so" type="Qnx/Elf">lib/libSDL12.so</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/libs/libtco.so" type="Qnx/Elf">lib/libtco.so</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/libs/mupen64plus-audio-sdl.so" type="Qnx/Elf">lib/mupen64plus-audio-sdl.so</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/libs/rsp-no-sound.so" type="Qnx/Elf">lib/rsp-no-sound.so</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/data/Alternate.png">Alternate.png</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/data/AlternateKey.png">AlternateKey.png</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/data/Default.png">Default.png</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/data/DefaultKey.png">DefaultKey.png</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/data/DefaultStick.png">DefaultStick.png</asset>
+   <asset path="C:/Development/Mupen64Plus-PB/data/mupen4plus icon.png">mupen4plus icon.png</asset>
+   <action>access_shared</action>
+   <action>play_audio</action>
+   <env var="LD_LIBRARY_PATH" value="app/native/lib"/>
+</qnx>
